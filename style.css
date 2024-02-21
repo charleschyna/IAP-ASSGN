@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+}
+
+h1 {
+    color: #333;
+}
+
+#task-form {
+    margin-bottom: 20px;
+}
+
+#new-task-field {
+    padding: 8px;
+    margin-right: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: ease-in;
+}
+
+#submit-button:disabled {
+    background-color: #ccc;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
